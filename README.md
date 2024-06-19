@@ -10,9 +10,9 @@ The documentation is in the code itself.
 
 ## What is in this?
 The code contains 3 functions:
-1. dumb_optim: stochastic optimizer
-2. compute_weights: calculates kernel density with a Gaussian kernel then takes the reciprocals and normalizes them
-3. ldx_dx_model_error: the only function to be optimized currently implemented 
+1. **dumb_optim**: stochastic optimizer
+2. **compute_weights**: calculates kernel density with a Gaussian kernel then takes the reciprocals and normalizes them
+3. **ldx_dx_model_error**: the only function to be optimized currently implemented 
 
 
 
