@@ -2,7 +2,7 @@
 Apps Script implementation of a fairly generic (and simple) stochastic optimizer and a weighting scheme that is robust to non-uniform sample densities/rates. Meant to be used by people who are comfortable working with Google Apps Scripts in Google Sheets.
 
 ## How it works
-The optimizer starts with a user-defined initial estimation of the parameters to optimize and at every iteration tries random values around the best parameters it has found. Every time it finds an improvement it increases the reach of the randomization step, and decreases it every it doesn't. Finishes after a set number of iterations or when the reach of the randomization step gets low enough (whichever happens first).
+The optimizer starts with a user-defined initial estimation of the parameters to optimize and at every iteration tries random values around the best parameters it has found. Every time it finds an improvement it increases the reach of the randomization step, and decreases it when it doesn't. Finishes after a set number of iterations or when the reach of the randomization step gets low enough (whichever happens first).
 
 ## How to use
 To use copy the code to an Apps Script file in the editor (Extensions > Apps Script on Google Sheets).
